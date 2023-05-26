@@ -1,0 +1,23 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.7;
+
+contract Ethercoversion{
+    uint public Ether;
+
+    function calc_Ether_value(uint _Ether) public {
+        Ether = _Ether;
+    }
+
+    function get_Eth_value() public view returns(uint) {
+        return Ether;
+    }
+
+    function get_Gwei_value() public view returns(uint) {
+        return Ether * (10**9);
+    }
+    
+    function get_Wei_value() public view returns(uint) {
+        return Ether*(10**18);
+    }
+
+}
