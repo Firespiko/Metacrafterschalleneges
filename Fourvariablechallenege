@@ -1,0 +1,43 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.7;
+
+contract Fourvariable{
+    int public num1;
+    uint public num2;
+    bool public value1;
+    string public sentence1;
+
+    function set_func1(int _num1) public{
+        num1 = _num1;
+    }
+    
+    function get_func1() public view returns(int){
+        return num1;
+    }
+
+    function set_func2(uint _num2) public{
+        num2 = _num2;
+    }
+
+    function get_func2() public view returns(uint){
+        return num2;
+    }
+
+    function set_func3(bool _value1) public{
+        value1 = _value1;
+    }
+
+    function get_func3() public view returns(bool){
+        return value1;
+    }
+
+    function set_func4(string memory _sentence1) public{
+        sentence1 = _sentence1;
+    }
+
+    function get_func4() public view returns(string memory){
+        return sentence1;
+    }
+
+}
+
