@@ -5,6 +5,8 @@
 ## **DESCRIPTION**
 
 #### This program is a simple contract written in solidity with three state variables,1 mapping and two functions.
-#### Variables- This program has three variables named token_name,token_abbrv and TotalSupply which stores token name, token abbreviation and total supply respectively.
-####Mapping - 
+#### **Variables**- This program has three variables named token_name,token_abbrv and TotalSupply which stores token name, token abbreviation and total supply respectively.
+#### **Mapping** 
+#### This program cointains a mapping named balances which maps address to their respective balances.
+#### F
 
