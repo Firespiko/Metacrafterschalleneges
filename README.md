@@ -65,3 +65,13 @@ contract MyToken {
       }     
    }
 ```
+#### To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.18+" (or another compatible version), and then click on the "Compile MyToken.sol" button.
+#### Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "MyToken" contract from the dropdown menu, and then click on the "Deploy" button.
+#### Once the contract is deployed click on three variables to check their values and in the account section choose any address  and click copy to clipboard.Click on the drop down on mint function and click on the address parameter and paste the address and enter the number of tokens to  mint in the value parameter.Click the mint function.Click on the TotalSupply  variable and balances mapping by pasting address to check whether if the transaction is complete.
+#### Now the same process is done for the burn unction to burn the token(i.e to decrease the no of tokens) and the transaction will not go through if the no of tokens is greater to burn is greater than the no of tokens in address.
+
+### **AUTHORS**
+#### **Firespiko**
+
+### **LISCENCE**
+#### This project is licensed under the MIT License - see the LICENSE.md file for details
